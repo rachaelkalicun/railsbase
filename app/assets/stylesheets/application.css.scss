@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+@import "helpers";
+// changing the breakpoint value before importing bootstrap style
+// This change is made for the menu (navbar) to collapse on tablet for better view
+$screen-sm:1024px;
+@import "bootstrap";
